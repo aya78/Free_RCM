@@ -13,5 +13,91 @@
         <maven.compiler.target>19</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    
+    <dependencies>
+    <!-- https://mvnrepository.com/artifact/co.verisoft/Selenium4-Junit5 -->
+    <dependency>
+        <groupId>co.verisoft</groupId>
+        <artifactId>Selenium4-Junit5</artifactId>
+        <version>0.0.4</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.1.0</version>
+        <scope>test</scope>
+    </dependency>
+
+    <dependency>
+        <groupId>org.junit.platform</groupId>
+        <artifactId>junit-platform-launcher</artifactId>
+        <version>1.6.2</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.junit.platform</groupId>
+        <artifactId>junit-platform-engine</artifactId>
+        <version>1.6.0</version>
+    </dependency>
+
+
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-chrome-driver</artifactId>
+        <version>4.1.1</version>
+    </dependency>
+
+
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-devtools</artifactId>
+        <version>4.0.0-rc-1</version>
+    </dependency>
+
+    <dependency>
+        <groupId>com.google.guava</groupId>
+        <artifactId>guava</artifactId>
+        <version>31.0.1-jre</version>
+        <!--            <classifier></classifier>-->
+    </dependency>
+
+    <!--webmagic-core核心包 -->
+    <dependency>
+        <groupId>us.codecraft</groupId>
+        <artifactId>webmagic-core</artifactId>
+        <version>0.7.5</version>
+    </dependency>
+    <!--webmagic-extension拓展-->
+    <dependency>
+        <groupId>us.codecraft</groupId>
+        <artifactId>webmagic-extension</artifactId>
+        <version>0.7.5</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.quartz-scheduler</groupId>
+        <artifactId>quartz</artifactId>
+        <version>2.3.2</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+    <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-simple</artifactId>
+        <version>1.0-rc3</version>
+        <scope>test</scope>
+    </dependency>
+
+    <dependency>
+        <groupId>io.qameta.allure</groupId>
+        <artifactId>allure-testng</artifactId>
+        <version>2.20.1</version>
+    </dependency>
+    <dependency>
+        <groupId>org.webjars.npm</groupId>
+        <artifactId>index-array-by</artifactId>
+        <version>1.3.3</version>
+    </dependency>
+</dependencies>
+
 </project>
